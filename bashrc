@@ -10,3 +10,6 @@ alias gdt='git difftool'
 
 export EDITOR='/usr/bin/vim'
 export VISUAL='/usr/bin/vim'
+
+# Disable control flow key strokes (Ctrl-S & Ctrl-Q)
+stty -ixon
