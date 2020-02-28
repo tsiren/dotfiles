@@ -13,3 +13,6 @@ export VISUAL='/usr/bin/vim'
 
 # Disable control flow key strokes (Ctrl-S & Ctrl-Q)
 stty -ixon
+
+# Disable non breaking space causing misbehaviour after pipe char
+setxkbmap -option "nbsp:none"
