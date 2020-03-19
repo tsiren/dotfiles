@@ -10,8 +10,8 @@ alias gdt='git difftool'
 
 export EDITOR='/usr/bin/vim'
 export VISUAL='/usr/bin/vim'
-# tmux home/end keys are broken if using xterm here
-export TERM='screen-256color'
+# Fixes vim etc. colors
+export TERM='xterm-256color'
 
 # Disable control flow key strokes (Ctrl-S & Ctrl-Q)
 stty -ixon
